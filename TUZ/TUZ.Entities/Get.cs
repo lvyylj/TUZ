@@ -4,26 +4,13 @@ namespace TUZ.Entities
 {
     internal class Get
     {
-        private string _from;
-        public string From
-        {
-            get => _from;
-            set => _from = value;
-        }
+        
+        public string From { get; set; }
 
-        private string _to;
-        public string To
-        {
-            get => _to;
-            set => _to = value;
+        
+        public string To { get; set; }
 
-        }
-
-        private DateTime _schedule;
-        public DateTime Schedule
-        {
-            get => _schedule;
-            set => _schedule = value;
-        }
+        
+        public DateTime Schedule { get; set; }
     }
 }

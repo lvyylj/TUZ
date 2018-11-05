@@ -1,6 +1,6 @@
 namespace TUZ.Entities
 {
-    public class TRUCK
+    public class Truck
     {
         
     }

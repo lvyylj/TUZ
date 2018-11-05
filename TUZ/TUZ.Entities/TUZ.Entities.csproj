@@ -42,7 +42,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TRUCK.cs" />
     <Compile Include="TruckType.cs" />
-    <Compile Include="WeTake.cs" />
+    <Compile Include="Train.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
