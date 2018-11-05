@@ -6,6 +6,8 @@ namespace TUZ.Entities
     {
         private DateTime _departure;
         private int  _id;
+        private DateTime _arrive;
+        private int _duration;
 
         public int Id
         {
@@ -17,6 +19,18 @@ namespace TUZ.Entities
         {
             get => _departure;
             set => _departure = value;
+        }
+        
+        public DateTime Arrive
+        {
+            get => _arrive;
+            set => _arrive = value;
+        }
+        
+        public int Duration
+        {
+            get => _duration;
+            set => _duration = value;
         }
     }
 }
