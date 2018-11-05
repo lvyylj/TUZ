@@ -1,7 +1,10 @@
 namespace TUZ.Entities
 {
-    public class TruckType
+    public enum TruckType
     {
-        
+        K,
+        L,
+        P,
+        M
     }
 }
