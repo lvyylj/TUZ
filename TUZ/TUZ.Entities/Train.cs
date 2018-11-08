@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace TUZ.Entities
 {
@@ -12,6 +13,8 @@ namespace TUZ.Entities
         public DateTime Arrive { get; set; }
         
         public int Duration { get; set; }
+        
+        public List<Truck> Trucks { get; set; }
        
     }
-}
+}    
