@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TUZ.API", "TUZ.API\TUZ.API.csproj", "{7440B4BF-0414-4D5E-816F-4BD06AF72D9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TUZ.Entities", "TUZ.Entities\TUZ.Entities.csproj", "{5D7350FC-61DF-4906-AC59-1C2798F0BF01}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TUZ.Entities", "TUZ.Entities\TUZ.Entities.csproj", "{5EB54464-1AA4-4CC4-B6FC-9EA1195E96B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,9 +14,9 @@ Global
 		{7440B4BF-0414-4D5E-816F-4BD06AF72D9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7440B4BF-0414-4D5E-816F-4BD06AF72D9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7440B4BF-0414-4D5E-816F-4BD06AF72D9A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5D7350FC-61DF-4906-AC59-1C2798F0BF01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5D7350FC-61DF-4906-AC59-1C2798F0BF01}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5D7350FC-61DF-4906-AC59-1C2798F0BF01}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5D7350FC-61DF-4906-AC59-1C2798F0BF01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EB54464-1AA4-4CC4-B6FC-9EA1195E96B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EB54464-1AA4-4CC4-B6FC-9EA1195E96B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EB54464-1AA4-4CC4-B6FC-9EA1195E96B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EB54464-1AA4-4CC4-B6FC-9EA1195E96B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
