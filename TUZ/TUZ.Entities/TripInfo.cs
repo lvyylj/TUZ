@@ -2,7 +2,7 @@ using System;
 
 namespace TUZ.Entities
 {
-    internal class TripInfo
+    public class TripInfo
     {
         
         public string From { get; set; }
