@@ -27,7 +27,6 @@ namespace TUZ.API.Tests
             train.Id = 12;
             train.Duration = train.Arrive - train.Departure;
             train.Trucks = new List<Truck>();
-            train.Trucks.Add(null);
             
             return train;
 
