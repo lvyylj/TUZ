@@ -16,20 +16,20 @@ namespace TUZ.API.Tests
         
         
         
-        public bool IsHolded { get; set; }
+        
 
         public Truck GetData(TripInfo tripinfo)
         {
             // Some work
             int Id = new int();
-            DateTime Departure = new DateTime(2018,11,22,15,0,0);
-            DateTime Arrive = new DateTime(2018,11,23,15,0,0);
-            TimeSpan Duration = new TimeSpan(1,0,0,0);
-            Truck Truck  = new Truck();
-            Truck.Type = TruckType.K;
-            Truck.Place.Number = 12;
-            Truck.IsHolded = false;
-            return Truck;
+            DateTime departure = new DateTime(2018,11,22,15,0,0);
+            DateTime arrive = new DateTime(2018,11,23,15,0,0);
+            TimeSpan duration = new TimeSpan(1,0,0,0);
+            Truck truck  = new Truck();
+            truck.Type = TruckType.K;
+            truck.Place.Number = 12;
+            truck.Place.IsHolded = true;
+            return truck;
 
         }
         
