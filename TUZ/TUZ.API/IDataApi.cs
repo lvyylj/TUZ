@@ -4,6 +4,6 @@ namespace TUZ.API
 {
     public interface IDataApi
     {
-        Truck GetData(TripInfo tripInfo);
+        Train GetData(TripInfo tripInfo);
     }
 }
